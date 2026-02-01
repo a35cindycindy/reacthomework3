@@ -24,8 +24,8 @@ import './App.css'
 function App() {
    // 表單資料狀態(儲存登入表單輸入)
   const [formData, setFormData] = useState({
-    username: "a35cindyvip@gmail.com",
-    password: "iambee20060130",
+    username: "",
+    password: "",
   });
   // 登入狀態管理(控制顯示登入或產品頁）
   const [isAuth, setIsAuth] = useState(false);
